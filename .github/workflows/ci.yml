@@ -46,6 +46,7 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
           pip install flake8
+          pip install "lxml[html_clean]"
       
       - name: 🐍 语法检查
         run: |
