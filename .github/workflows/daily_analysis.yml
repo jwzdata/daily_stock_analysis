@@ -43,6 +43,7 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
+          pip install "lxml[html_clean]"
       
       - name: 创建必要目录
         run: |
